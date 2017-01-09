@@ -13,6 +13,8 @@
 		32EA3F6E1E23FF0E008BF0EF /* MakeANote.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 32EA3F6C1E23FF0E008BF0EF /* MakeANote.xcdatamodeld */; };
 		32EA3F701E23FF0E008BF0EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32EA3F6F1E23FF0E008BF0EF /* Assets.xcassets */; };
 		32EA3F731E23FF0E008BF0EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32EA3F711E23FF0E008BF0EF /* LaunchScreen.storyboard */; };
+		32EA3F7B1E240604008BF0EF /* AddDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32EA3F7A1E240604008BF0EF /* AddDetailViewController.swift */; };
+		32EA3F7D1E24176F008BF0EF /* DetailedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32EA3F7C1E24176F008BF0EF /* DetailedViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		32EA3F6F1E23FF0E008BF0EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		32EA3F721E23FF0E008BF0EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		32EA3F741E23FF0E008BF0EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32EA3F7A1E240604008BF0EF /* AddDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddDetailViewController.swift; sourceTree = "<group>"; };
+		32EA3F7C1E24176F008BF0EF /* DetailedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailedViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +44,7 @@
 		32EA3F591E23FF0E008BF0EF = {
 			isa = PBXGroup;
 			children = (
+				32EA3F7C1E24176F008BF0EF /* DetailedViewController.swift */,
 				32EA3F641E23FF0E008BF0EF /* MakeANote */,
 				32EA3F631E23FF0E008BF0EF /* Products */,
 			);
@@ -63,6 +68,7 @@
 				32EA3F711E23FF0E008BF0EF /* LaunchScreen.storyboard */,
 				32EA3F741E23FF0E008BF0EF /* Info.plist */,
 				32EA3F6C1E23FF0E008BF0EF /* MakeANote.xcdatamodeld */,
+				32EA3F7A1E240604008BF0EF /* AddDetailViewController.swift */,
 			);
 			path = MakeANote;
 			sourceTree = "<group>";
@@ -99,7 +105,7 @@
 				TargetAttributes = {
 					32EA3F611E23FF0E008BF0EF = {
 						CreatedOnToolsVersion = 8.2;
-						DevelopmentTeam = 37B3DTEVW5;
+						DevelopmentTeam = W8B5EA795X;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -142,7 +148,9 @@
 			files = (
 				32EA3F681E23FF0E008BF0EF /* ViewController.swift in Sources */,
 				32EA3F661E23FF0E008BF0EF /* AppDelegate.swift in Sources */,
+				32EA3F7D1E24176F008BF0EF /* DetailedViewController.swift in Sources */,
 				32EA3F6E1E23FF0E008BF0EF /* MakeANote.xcdatamodeld in Sources */,
+				32EA3F7B1E240604008BF0EF /* AddDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,10 +271,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 37B3DTEVW5;
+				DEVELOPMENT_TEAM = W8B5EA795X;
 				INFOPLIST_FILE = MakeANote/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.InfoLogin.MakeANote;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MakeANote;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -276,10 +284,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 37B3DTEVW5;
+				DEVELOPMENT_TEAM = W8B5EA795X;
 				INFOPLIST_FILE = MakeANote/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.InfoLogin.MakeANote;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MakeANote;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
