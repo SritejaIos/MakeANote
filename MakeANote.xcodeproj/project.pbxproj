@@ -27,7 +27,7 @@
 		32EA3F721E23FF0E008BF0EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		32EA3F741E23FF0E008BF0EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		32EA3F7A1E240604008BF0EF /* AddDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddDetailViewController.swift; sourceTree = "<group>"; };
-		32EA3F7C1E24176F008BF0EF /* DetailedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailedViewController.swift; sourceTree = "<group>"; };
+		32EA3F7C1E24176F008BF0EF /* DetailedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DetailedViewController.swift; path = ../DetailedViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,7 +44,6 @@
 		32EA3F591E23FF0E008BF0EF = {
 			isa = PBXGroup;
 			children = (
-				32EA3F7C1E24176F008BF0EF /* DetailedViewController.swift */,
 				32EA3F641E23FF0E008BF0EF /* MakeANote */,
 				32EA3F631E23FF0E008BF0EF /* Products */,
 			);
@@ -63,12 +62,13 @@
 			children = (
 				32EA3F651E23FF0E008BF0EF /* AppDelegate.swift */,
 				32EA3F671E23FF0E008BF0EF /* ViewController.swift */,
+				32EA3F7A1E240604008BF0EF /* AddDetailViewController.swift */,
+				32EA3F7C1E24176F008BF0EF /* DetailedViewController.swift */,
 				32EA3F691E23FF0E008BF0EF /* Main.storyboard */,
 				32EA3F6F1E23FF0E008BF0EF /* Assets.xcassets */,
 				32EA3F711E23FF0E008BF0EF /* LaunchScreen.storyboard */,
 				32EA3F741E23FF0E008BF0EF /* Info.plist */,
 				32EA3F6C1E23FF0E008BF0EF /* MakeANote.xcdatamodeld */,
-				32EA3F7A1E240604008BF0EF /* AddDetailViewController.swift */,
 			);
 			path = MakeANote;
 			sourceTree = "<group>";

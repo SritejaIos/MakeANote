@@ -123,14 +123,8 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Date/Time" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Iey-zv-wkB">
-                                <rect key="frame" x="25" y="342" width="364" height="30"/>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7ZG-0z-XnJ">
-                                <rect key="frame" x="118" y="642" width="178" height="40"/>
+                                <rect key="frame" x="118" y="642" width="61" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="iV2-bW-peW"/>
                                 </constraints>
@@ -138,6 +132,9 @@
                                 <state key="normal" title="Save">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="saveButton:" destination="7Lp-9j-wB8" eventType="touchUpInside" id="gUk-Ev-qbu"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.25098040700000002" blue="0.50196081400000003" alpha="0.85220462328767121" colorSpace="calibratedRGB"/>
@@ -152,14 +149,10 @@
                             <constraint firstItem="gSM-ov-fF5" firstAttribute="top" secondItem="8I5-0O-1GR" secondAttribute="bottom" constant="175" id="DDR-1G-Cac"/>
                             <constraint firstAttribute="trailingMargin" secondItem="4KA-NU-AzC" secondAttribute="trailing" constant="5" id="FGJ-Lr-C2w"/>
                             <constraint firstItem="NYP-FH-gVx" firstAttribute="leading" secondItem="4KA-NU-AzC" secondAttribute="leading" id="Fwp-ib-MGq"/>
-                            <constraint firstItem="Iey-zv-wkB" firstAttribute="leading" secondItem="wX4-44-lx4" secondAttribute="leading" id="GBC-El-6qL"/>
                             <constraint firstItem="PsR-Ih-cAt" firstAttribute="trailing" secondItem="NYP-FH-gVx" secondAttribute="trailing" id="IkS-PR-QyU"/>
-                            <constraint firstItem="Iey-zv-wkB" firstAttribute="trailing" secondItem="wX4-44-lx4" secondAttribute="trailing" id="Ldw-Am-P8U"/>
                             <constraint firstItem="gba-WG-mOY" firstAttribute="top" secondItem="7ZG-0z-XnJ" secondAttribute="bottom" constant="54" id="Nca-SO-Bhk"/>
                             <constraint firstItem="wX4-44-lx4" firstAttribute="leading" secondItem="gSM-ov-fF5" secondAttribute="leading" id="PKQ-Ma-zT4"/>
-                            <constraint firstItem="Iey-zv-wkB" firstAttribute="top" secondItem="8I5-0O-1GR" secondAttribute="bottom" constant="278" id="Ub6-AP-0ic"/>
                             <constraint firstItem="NYP-FH-gVx" firstAttribute="trailing" secondItem="4KA-NU-AzC" secondAttribute="trailing" id="WpW-Z4-5cx"/>
-                            <constraint firstItem="7ZG-0z-XnJ" firstAttribute="centerX" secondItem="Iey-zv-wkB" secondAttribute="centerX" id="fRu-nQ-GjR"/>
                             <constraint firstItem="7ZG-0z-XnJ" firstAttribute="leading" secondItem="Dgr-bN-65e" secondAttribute="leadingMargin" constant="98" id="gkf-n3-t43"/>
                             <constraint firstItem="wX4-44-lx4" firstAttribute="trailing" secondItem="gSM-ov-fF5" secondAttribute="trailing" id="p8e-pw-H5X"/>
                             <constraint firstItem="4KA-NU-AzC" firstAttribute="leading" secondItem="Dgr-bN-65e" secondAttribute="leadingMargin" constant="5" id="u9P-Bi-gL7"/>
@@ -167,6 +160,13 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="AddDetails" id="LjJ-dx-J3D"/>
+                    <connections>
+                        <outlet property="companyTextfield" destination="PsR-Ih-cAt" id="U6F-oL-OUk"/>
+                        <outlet property="contactTextfield" destination="NYP-FH-gVx" id="KKl-Gx-iMT"/>
+                        <outlet property="designationTextfield" destination="gSM-ov-fF5" id="Alr-2N-Rmr"/>
+                        <outlet property="meetinglocationTextfield" destination="wX4-44-lx4" id="k2r-mt-uOU"/>
+                        <outlet property="nameTextfield" destination="4KA-NU-AzC" id="GIp-4N-BwU"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="do8-XG-EAs" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
